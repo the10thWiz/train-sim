@@ -1,0 +1,15 @@
+[package]
+name = "train-sim"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = { version = "^0.9", features = ["dynamic"] }
+byteorder = "1.4.3"
+smooth-bevy-cameras = "0.7.0"
+image = { version = "0.24.5" }
+log = "*"
+thiserror = "*"
+# simple-log = "*"
